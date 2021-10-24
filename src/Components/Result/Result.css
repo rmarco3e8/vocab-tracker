@@ -1,0 +1,7 @@
+.result-container.opening {
+    animation: slideUp 200ms ease-in;
+}
+
+.result-container.closing{
+    animation: slideDown 200ms ease-out;
+}
