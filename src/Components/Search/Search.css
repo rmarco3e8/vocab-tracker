@@ -1,14 +1,15 @@
 .search-container {
-    position: absolute;
-    height: 30%;
-    width: 30%;
+    /*height: 80%;
+    width: 100%;*/
 
+    
     display: flex;
-    flex-direction: column;
+    flex-direction: stretch;
     justify-content: center;
     align-items: center;
+    
 
-    background: rgba(22, 18, 59, 0);
+    background: #9a8c98;
 
     font-family: fantasy;
 }

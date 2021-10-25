@@ -1,11 +1,11 @@
 import './App.css';
-import Search from './Components/Search/Search';
+import Home from './Views/Home/Home';
 import Result from './Components/Result/Result';
 import { useState } from 'react';
 
 function App() {
 
-  const [search, setSearchState] = useState(true)
+  const [homeState, setHomeState] = useState(true);
   const [resultState, setResultState] = useState(0);
 
   function resultStateChangeHandler() {
@@ -21,7 +21,7 @@ function App() {
     { (resultState > 0) && <Result resultStateChangeHandler={resultStateChangeHandler}
                                     resultState={resultState}/> }
 
-    { search && <Search resultStateChangeHandler={resultStateChangeHandler}
+    { homeState && <Home resultStateChangeHandler={resultStateChangeHandler}
                         resultState={resultState}/> }
     </>
   );

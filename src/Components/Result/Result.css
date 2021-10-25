@@ -2,6 +2,11 @@
     animation: slideUp 200ms ease-in;
 }
 
-.result-container.closing{
+.result-container.closing {
     animation: slideDown 200ms ease-out;
+}
+
+.result-close {
+    height: 40px;
+    width: 40px;
 }
